@@ -1,0 +1,35 @@
+You can have a doubly linked list to maintain the list of 
+events on which actions need to be taken. Typically each
+event will correspond to a packet that has been sent and 
+may have to be retransmitted. Each  node in  the link 
+list will maintain a "time" field. This "time" field 
+contains the time beyond the previous event (previous node).
+
+Here is an example.
+If three timers need to be started 
+expiring at 4, 9 and 17 seconds from now. The head 
+of the list will correspond to the timer that will 
+expire first and it will have a time field of "4". 
+The second node will have a time field of "5" indicating 
+the additional time needed beyond the expiry of the previous event.
+Similary the last node will have a time field of "8". Only one timer
+needs to be started for a time corresponding to the first 
+node (4 seconds). Upon expiry the link list needs to be
+scanned from the beginning to see which events have expired.
+
+
+You will have to write functions to add and delete entries from 
+this delta-list. Learn how to start and cancel a timer. Consider
+special cases such as addition to the head of the list.
+
+Read man pages for signal and alarm. Note that alarm(0) can be 
+used to cancel an alarm request. setitimer is a generalization of
+alarm. setitimer allows you to generate a signal  (and therefore call
+a function) periodically.  (Why is the sleep() function not a good idea
+to implement the delta-list?)
+
+This is certainly not the only way to implement multiple simultaneous
+timers.  For example, instead of maintaining time difference from the previous node, 
+you can also maintain a list of absolute expiry times.
+
+

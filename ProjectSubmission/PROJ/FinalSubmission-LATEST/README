@@ -1,0 +1,32 @@
+/********************************************************************************/
+ * Author: Abhishek Dharmapurikar and Ananth Mahadevan
+ * Course: CSE678
+ * Description: This is the implementation of a TCP like reliable protocol using 
+ * 				the unreliable service provided by UDP. The implementation is 
+ *				demonstrated by transferring a file (image/text etc) from one
+ *				application to another.
+ *
+ *******************************************************************************/
+--------------------------------------
+Execution steps:
+--------------------------------------
+1. The processes - ftpc, tcpd_m2 and troll - are to be executed on one single machine (say "mu.cse.ohio-state.edu").
+2. The processes - ftps and tcpd_m1 - are to be executed on another machine (say "kappa.cse.ohio-state.edu").
+3. The executables are built using the attached Makefile.
+4. The execution commands are:
+	a. tcpd_m2 				<PRESS ENTER>
+	b. timer				<PRESS ENTER>
+	c. troll -b10 -s10 -x10 1053 	<PRESS ENTER> 
+	d. tcpd_m1 				<PRESS ENTER>
+	e. ftps 1059		<PRESS ENTER>
+	f. ftpc 164.107.112.41 1069 <file name> 		<PRESS ENTER>
+
+--------------------------------------
+Expected output:
+--------------------------------------
+1. ftpc 164.107.112.41 1069 <file name> 	-- 	Gets the file details (file name and size) and stores in file_header. Sends the file_header and actual file payload to TCPD_m1 process
+						
+2. tcpd_m2	 		--	Receives the file information from ftpc which is stored in the packet's buffer region. Packet's header region is constructed with the address details of the TCPD server process. The entire packet (header+payload) is sent to the TROLL process (PORT: 1053).
+3. TROLL			--	Executed with the command - troll -b10 -s10 -x10 1053 - which will make troll run in the background, listening on UDP port 1053 and delaying and dropping datagrams (10%). The packets are sent to tcpd_m1 process using the details in the packet header.
+4. tcpd_m1			--	Receives the file information from TROLL which is stored in the packet. The packet is sent to the server process.
+5. ftps 			-- 	Receives the message from the tcpd_m1 process. The file details are extracted from the message and the payload is stored into a file in a new location with the same name as the one sent by ftpc.

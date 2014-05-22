@@ -1,0 +1,1330 @@
+FTPC: alloc seq no 0
+In if cb.sent 0 cb.start 0 WINDOW is 0
+TO_TIMER: INSERT sequence data 0 from tcpd_m2 to timer sec 1337224633 usec 925119 timesec 1337224627 usec 925119
+TO_TROLL:sequence 0
+start:0 00000000000000000000 end:0
+FTPC: alloc seq no 1
+In if cb.sent 1 cb.start 0 WINDOW is 1
+TO_TIMER: INSERT sequence data 1 from tcpd_m2 to timer sec 1337224634 usec 924056 timesec 1337224628 usec 924056
+TO_TROLL:sequence 1
+start:0 00000000000000000000 end:1
+TROLL: seq 1 acked to tcpd_m2
+
+start:0 01000000000000000000 end:1
+FTPC: alloc seq no 2
+In if cb.sent 2 cb.start 0 WINDOW is 2
+TO_TIMER: INSERT sequence data 2 from tcpd_m2 to timer sec 1337224631 usec 924029 timesec 1337224629 usec 923954
+TO_TROLL:sequence 2
+start:0 01000000000000000000 end:2
+FTPC: alloc seq no 3
+In if cb.sent 3 cb.start 0 WINDOW is 3
+TO_TIMER: INSERT sequence data 3 from tcpd_m2 to timer sec 1337224632 usec 923936 timesec 1337224630 usec 923861
+TO_TROLL:sequence 3
+start:0 01000000000000000000 end:3
+TROLL: seq 3 acked to tcpd_m2
+
+start:0 01010000000000000000 end:3
+FTPC: alloc seq no 4
+In if cb.sent 4 cb.start 0 WINDOW is 4
+TO_TIMER: INSERT sequence data 4 from tcpd_m2 to timer sec 1337224633 usec 924116 timesec 1337224631 usec 924000
+TO_TROLL:sequence 4
+start:0 01010000000000000000 end:4
+FTPC: alloc seq no 5
+In if cb.sent 5 cb.start 0 WINDOW is 5
+TO_TIMER: INSERT sequence data 5 from tcpd_m2 to timer sec 1337224634 usec 923888 timesec 1337224632 usec 923772
+TO_TROLL:sequence 5
+start:0 01010000000000000000 end:5
+TROLL: seq 5 acked to tcpd_m2
+
+start:0 01010100000000000000 end:5
+FTPC: alloc seq no 6
+In if cb.sent 6 cb.start 0 WINDOW is 6
+TO_TIMER: INSERT sequence data 6 from tcpd_m2 to timer sec 1337224635 usec 923977 timesec 1337224633 usec 923835
+TO_TROLL:sequence 6
+start:0 01010100000000000000 end:6
+TIMER: 2 timed out
+TO_TIMER: INSERT sequence data 2 from tcpd_m2 to timer sec 1337224635 usec 924194 timesec 1337224633 usec 924052
+TO_TROLL:sequence 2
+TROLL: seq 2 acked to tcpd_m2
+
+start:0 01110100000000000000 end:6
+FTPC: alloc seq no 7
+In if cb.sent 7 cb.start 0 WINDOW is 7
+TO_TIMER: INSERT sequence data 7 from tcpd_m2 to timer sec 1337224636 usec 923927 timesec 1337224634 usec 923771
+TO_TROLL:sequence 7
+start:0 01110100000000000000 end:7
+TROLL: recv 21945 != calc 24110, not processing
+FTPC: alloc seq no 8
+In if cb.sent 8 cb.start 0 WINDOW is 8
+TO_TIMER: INSERT sequence data 8 from tcpd_m2 to timer sec 1337224637 usec 923828 timesec 1337224635 usec 923672
+TO_TROLL:sequence 8
+start:0 01110100000000000000 end:8
+TIMER: 4 timed out
+TO_TIMER: INSERT sequence data 4 from tcpd_m2 to timer sec 1337224637 usec 933750 timesec 1337224635 usec 933594
+TO_TROLL:sequence 4
+TIMER: 0 timed out
+TO_TIMER: INSERT sequence data 0 from tcpd_m2 to timer sec 1337224637 usec 953730 timesec 1337224635 usec 953574
+TO_TROLL:sequence 0
+TROLL: seq 4 acked to tcpd_m2
+
+start:0 01111100000000000000 end:8
+FTPC: alloc seq no 9
+In if cb.sent 9 cb.start 0 WINDOW is 9
+TO_TIMER: INSERT sequence data 9 from tcpd_m2 to timer sec 1337224638 usec 923760 timesec 1337224636 usec 923609
+TO_TROLL:sequence 9
+start:0 01111100000000000000 end:9
+FTPC: alloc seq no 10
+In if cb.sent 10 cb.start 0 WINDOW is 10
+TO_TIMER: INSERT sequence data 10 from tcpd_m2 to timer sec 1337224639 usec 923782 timesec 1337224637 usec 923631
+TO_TROLL:sequence 10
+start:0 01111100000000000000 end:10
+TIMER: 6 timed out
+TO_TIMER: INSERT sequence data 6 from tcpd_m2 to timer sec 1337224639 usec 954346 timesec 1337224637 usec 954195
+TO_TROLL:sequence 6
+TROLL: seq 10 acked to tcpd_m2
+
+start:0 01111100001000000000 end:10
+TROLL: seq 6 acked to tcpd_m2
+
+start:0 01111110001000000000 end:10
+FTPC: alloc seq no 11
+In if cb.sent 11 cb.start 0 WINDOW is 11
+TO_TIMER: INSERT sequence data 11 from tcpd_m2 to timer sec 1337224640 usec 923647 timesec 1337224638 usec 923514
+TO_TROLL:sequence 11
+start:0 01111110001000000000 end:11
+TIMER: 7 timed out
+TO_TIMER: INSERT sequence data 7 from tcpd_m2 to timer sec 1337224640 usec 963584 timesec 1337224638 usec 963451
+TO_TROLL:sequence 7
+FTPC: alloc seq no 12
+In if cb.sent 12 cb.start 0 WINDOW is 12
+TO_TIMER: INSERT sequence data 12 from tcpd_m2 to timer sec 1337224641 usec 923749 timesec 1337224639 usec 923616
+TO_TROLL:sequence 12
+start:0 01111110001000000000 end:12
+TIMER: 8 timed out
+TO_TIMER: INSERT sequence data 8 from tcpd_m2 to timer sec 1337224641 usec 963707 timesec 1337224639 usec 963574
+TO_TROLL:sequence 8
+TIMER: 0 timed out
+TO_TIMER: INSERT sequence data 0 from tcpd_m2 to timer sec 1337224642 usec 3561 timesec 1337224640 usec 3428
+TO_TROLL:sequence 0
+FTPC: alloc seq no 13
+In if cb.sent 13 cb.start 0 WINDOW is 13
+TO_TIMER: INSERT sequence data 13 from tcpd_m2 to timer sec 1337224642 usec 923562 timesec 1337224640 usec 923429
+TO_TROLL:sequence 13
+start:0 01111110001000000000 end:13
+TIMER: 9 timed out
+TO_TIMER: INSERT sequence data 9 from tcpd_m2 to timer sec 1337224642 usec 983477 timesec 1337224640 usec 983344
+TO_TROLL:sequence 9
+TROLL: recv 31525 != calc 26796, not processing
+FTPC: alloc seq no 14
+In if cb.sent 14 cb.start 0 WINDOW is 14
+TO_TIMER: INSERT sequence data 14 from tcpd_m2 to timer sec 1337224643 usec 923471 timesec 1337224641 usec 923338
+TO_TROLL:sequence 14
+start:0 01111110001000000000 end:14
+FTPC: alloc seq no 15
+In if cb.sent 15 cb.start 0 WINDOW is 15
+TO_TIMER: INSERT sequence data 15 from tcpd_m2 to timer sec 1337224644 usec 923423 timesec 1337224642 usec 923290
+TO_TROLL:sequence 15
+start:0 01111110001000000000 end:15
+TROLL: seq 15 acked to tcpd_m2
+
+start:0 01111110001000010000 end:15
+TIMER: 11 timed out
+TO_TIMER: INSERT sequence data 11 from tcpd_m2 to timer sec 1337224644 usec 993481 timesec 1337224642 usec 993343
+TO_TROLL:sequence 11
+TIMER: 7 timed out
+TO_TIMER: INSERT sequence data 7 from tcpd_m2 to timer sec 1337224645 usec 43386 timesec 1337224643 usec 43248
+TO_TROLL:sequence 7
+FTPC: alloc seq no 16
+In if cb.sent 16 cb.start 0 WINDOW is 16
+TO_TIMER: INSERT sequence data 16 from tcpd_m2 to timer sec 1337224645 usec 923374 timesec 1337224643 usec 923236
+TO_TROLL:sequence 16
+start:0 01111110001000010000 end:16
+TROLL: seq 16 acked to tcpd_m2
+
+start:0 01111110001000011000 end:16
+TIMER: 12 timed out
+TO_TIMER: INSERT sequence data 12 from tcpd_m2 to timer sec 1337224646 usec 13477 timesec 1337224644 usec 13337
+TO_TROLL:sequence 12
+TIMER: 8 timed out
+TO_TIMER: INSERT sequence data 8 from tcpd_m2 to timer sec 1337224646 usec 63355 timesec 1337224644 usec 63215
+TO_TROLL:sequence 8
+TIMER: 0 timed out
+TO_TIMER: INSERT sequence data 0 from tcpd_m2 to timer sec 1337224646 usec 113295 timesec 1337224644 usec 113155
+TO_TROLL:sequence 0
+TROLL: seq 8 acked to tcpd_m2
+
+start:0 01111110101000011000 end:16
+TROLL: seq 0 acked to tcpd_m2
+
+start:7 01010000110000000000 end:16
+FTPC: alloc seq no 17
+In if cb.sent 17 cb.start 7 WINDOW is 10
+TO_TIMER: INSERT sequence data 17 from tcpd_m2 to timer sec 1337224646 usec 923357 timesec 1337224644 usec 923231
+TO_TROLL:sequence 17
+start:7 01010000110000000000 end:17
+TIMER: 13 timed out
+TO_TIMER: INSERT sequence data 13 from tcpd_m2 to timer sec 1337224647 usec 43433 timesec 1337224645 usec 43307
+TO_TROLL:sequence 13
+TIMER: 9 timed out
+TO_TIMER: INSERT sequence data 9 from tcpd_m2 to timer sec 1337224647 usec 113278 timesec 1337224645 usec 113152
+TO_TROLL:sequence 9
+TROLL: recv 1859 != calc 1787, not processing
+FTPC: alloc seq no 18
+In if cb.sent 18 cb.start 7 WINDOW is 11
+TO_TIMER: INSERT sequence data 18 from tcpd_m2 to timer sec 1337224647 usec 923298 timesec 1337224645 usec 923172
+TO_TROLL:sequence 18
+start:7 01010000110000000000 end:18
+TIMER: 14 timed out
+TO_TIMER: INSERT sequence data 14 from tcpd_m2 to timer sec 1337224648 usec 63264 timesec 1337224646 usec 63138
+TO_TROLL:sequence 14
+TROLL: seq 14 acked to tcpd_m2
+
+start:7 01010001110000000000 end:18
+FTPC: alloc seq no 19
+In if cb.sent 19 cb.start 7 WINDOW is 12
+TO_TIMER: INSERT sequence data 19 from tcpd_m2 to timer sec 1337224648 usec 923270 timesec 1337224646 usec 923146
+TO_TROLL:sequence 19
+start:7 01010001110000000000 end:19
+TIMER: 11 timed out
+TO_TIMER: INSERT sequence data 11 from tcpd_m2 to timer sec 1337224649 usec 143193 timesec 1337224647 usec 143069
+TO_TROLL:sequence 11
+TIMER: 7 timed out
+TO_TIMER: INSERT sequence data 7 from tcpd_m2 to timer sec 1337224649 usec 203132 timesec 1337224647 usec 203008
+TO_TROLL:sequence 7
+TROLL: seq 11 acked to tcpd_m2
+
+start:7 01011001110000000000 end:19
+FTPC: alloc seq no 20
+In if cb.sent 20 cb.start 7 WINDOW is 13
+TO_TIMER: INSERT sequence data 20 from tcpd_m2 to timer sec 1337224649 usec 923267 timesec 1337224647 usec 923146
+TO_TROLL:sequence 20
+start:7 01011001110000000000 end:20
+TROLL: seq 20 acked to tcpd_m2
+
+start:7 01011001110001000000 end:20
+TIMER: 12 timed out
+TO_TIMER: INSERT sequence data 12 from tcpd_m2 to timer sec 1337224650 usec 183247 timesec 1337224648 usec 183131
+TO_TROLL:sequence 12
+FTPC: alloc seq no 21
+In if cb.sent 21 cb.start 7 WINDOW is 14
+TO_TIMER: INSERT sequence data 21 from tcpd_m2 to timer sec 1337224650 usec 923238 timesec 1337224648 usec 923122
+TO_TROLL:sequence 21
+start:7 01011001110001000000 end:21
+TROLL: seq 21 acked to tcpd_m2
+
+start:7 01011001110001100000 end:21
+TIMER: 17 timed out
+TO_TIMER: INSERT sequence data 17 from tcpd_m2 to timer sec 1337224651 usec 103148 timesec 1337224649 usec 103038
+TO_TROLL:sequence 17
+TIMER: 13 timed out
+TO_TIMER: INSERT sequence data 13 from tcpd_m2 to timer sec 1337224651 usec 233091 timesec 1337224649 usec 232981
+TO_TROLL:sequence 13
+TROLL: seq 13 acked to tcpd_m2
+
+start:7 01011011110001100000 end:21
+TIMER: 9 timed out
+TO_TIMER: INSERT sequence data 9 from tcpd_m2 to timer sec 1337224651 usec 313076 timesec 1337224649 usec 312970
+TO_TROLL:sequence 9
+FTPC: alloc seq no 22
+In if cb.sent 22 cb.start 7 WINDOW is 15
+TO_TIMER: INSERT sequence data 22 from tcpd_m2 to timer sec 1337224651 usec 923049 timesec 1337224649 usec 922943
+TO_TROLL:sequence 22
+start:7 01011011110001100000 end:22
+TIMER: 18 timed out
+TO_TIMER: INSERT sequence data 18 from tcpd_m2 to timer sec 1337224652 usec 133086 timesec 1337224650 usec 132980
+TO_TROLL:sequence 18
+TROLL: seq 18 acked to tcpd_m2
+
+start:7 01011011110101100000 end:22
+FTPC: alloc seq no 23
+In if cb.sent 23 cb.start 7 WINDOW is 16
+TO_TIMER: INSERT sequence data 23 from tcpd_m2 to timer sec 1337224652 usec 922961 timesec 1337224650 usec 922859
+TO_TROLL:sequence 23
+start:7 01011011110101100000 end:23
+TROLL: recv 30964 != calc 58612, not processing
+TIMER: 19 timed out
+TO_TIMER: INSERT sequence data 19 from tcpd_m2 to timer sec 1337224653 usec 142966 timesec 1337224651 usec 142864
+TO_TROLL:sequence 19
+TROLL: seq 19 acked to tcpd_m2
+
+start:7 01011011110111100000 end:23
+TIMER: 7 timed out
+TO_TIMER: INSERT sequence data 7 from tcpd_m2 to timer sec 1337224653 usec 432921 timesec 1337224651 usec 432822
+TO_TROLL:sequence 7
+TROLL: seq 7 acked to tcpd_m2
+
+start:9 01101111011110000000 end:23
+FTPC: alloc seq no 24
+In if cb.sent 24 cb.start 9 WINDOW is 15
+TO_TIMER: INSERT sequence data 24 from tcpd_m2 to timer sec 1337224653 usec 922900 timesec 1337224651 usec 922805
+TO_TROLL:sequence 24
+start:9 01101111011110000000 end:24
+TIMER: 12 timed out
+TO_TIMER: INSERT sequence data 12 from tcpd_m2 to timer sec 1337224654 usec 422940 timesec 1337224652 usec 422845
+TO_TROLL:sequence 12
+TROLL: seq 12 acked to tcpd_m2
+
+start:9 01111111011110000000 end:24
+FTPC: alloc seq no 25
+In if cb.sent 25 cb.start 9 WINDOW is 16
+TO_TIMER: INSERT sequence data 25 from tcpd_m2 to timer sec 1337224654 usec 922918 timesec 1337224652 usec 922827
+TO_TROLL:sequence 25
+start:9 01111111011110000000 end:25
+TIMER: 17 timed out
+TO_TIMER: INSERT sequence data 17 from tcpd_m2 to timer sec 1337224655 usec 352903 timesec 1337224653 usec 352812
+TO_TROLL:sequence 17
+TIMER: 9 timed out
+TO_TIMER: INSERT sequence data 9 from tcpd_m2 to timer sec 1337224655 usec 572920 timesec 1337224653 usec 572829
+TO_TROLL:sequence 9
+TROLL: seq 9 acked to tcpd_m2
+
+start:17 01111000000000000000 end:25
+FTPC: alloc seq no 26
+In if cb.sent 26 cb.start 17 WINDOW is 9
+TO_TIMER: INSERT sequence data 26 from tcpd_m2 to timer sec 1337224655 usec 922860 timesec 1337224653 usec 922772
+TO_TROLL:sequence 26
+start:17 01111000000000000000 end:26
+TROLL: seq 26 acked to tcpd_m2
+
+start:17 01111000010000000000 end:26
+TIMER: 22 timed out
+TO_TIMER: INSERT sequence data 22 from tcpd_m2 to timer sec 1337224656 usec 192872 timesec 1337224654 usec 192788
+TO_TROLL:sequence 22
+FTPC: alloc seq no 27
+In if cb.sent 27 cb.start 17 WINDOW is 10
+TO_TIMER: INSERT sequence data 27 from tcpd_m2 to timer sec 1337224656 usec 922795 timesec 1337224654 usec 922711
+TO_TROLL:sequence 27
+start:17 01111000010000000000 end:27
+TROLL: seq 27 acked to tcpd_m2
+
+start:17 01111000011000000000 end:27
+TIMER: 23 timed out
+TO_TIMER: INSERT sequence data 23 from tcpd_m2 to timer sec 1337224657 usec 202762 timesec 1337224655 usec 202681
+TO_TROLL:sequence 23
+FTPC: alloc seq no 28
+In if cb.sent 28 cb.start 17 WINDOW is 11
+TO_TIMER: INSERT sequence data 28 from tcpd_m2 to timer sec 1337224657 usec 922809 timesec 1337224655 usec 922728
+TO_TROLL:sequence 28
+start:17 01111000011000000000 end:28
+TIMER: 24 timed out
+TO_TIMER: INSERT sequence data 24 from tcpd_m2 to timer sec 1337224658 usec 202715 timesec 1337224656 usec 202634
+TO_TROLL:sequence 24
+FTPC: alloc seq no 29
+In if cb.sent 29 cb.start 17 WINDOW is 12
+TO_TIMER: INSERT sequence data 29 from tcpd_m2 to timer sec 1337224658 usec 922754 timesec 1337224656 usec 922673
+TO_TROLL:sequence 29
+start:17 01111000011000000000 end:29
+TROLL: seq 29 acked to tcpd_m2
+
+start:17 01111000011010000000 end:29
+TIMER: 25 timed out
+TO_TIMER: INSERT sequence data 25 from tcpd_m2 to timer sec 1337224659 usec 212725 timesec 1337224657 usec 212647
+TO_TROLL:sequence 25
+TROLL: seq 25 acked to tcpd_m2
+
+start:17 01111000111010000000 end:29
+TIMER: 17 timed out
+TO_TIMER: INSERT sequence data 17 from tcpd_m2 to timer sec 1337224659 usec 652643 timesec 1337224657 usec 652567
+TO_TROLL:sequence 17
+FTPC: alloc seq no 30
+In if cb.sent 30 cb.start 17 WINDOW is 13
+TO_TIMER: INSERT sequence data 30 from tcpd_m2 to timer sec 1337224659 usec 922678 timesec 1337224657 usec 922602
+TO_TROLL:sequence 30
+start:17 01111000111010000000 end:30
+TIMER: 22 timed out
+TO_TIMER: INSERT sequence data 22 from tcpd_m2 to timer sec 1337224660 usec 492637 timesec 1337224658 usec 492561
+TO_TROLL:sequence 22
+FTPC: alloc seq no 31
+In if cb.sent 31 cb.start 17 WINDOW is 14
+TO_TIMER: INSERT sequence data 31 from tcpd_m2 to timer sec 1337224660 usec 922591 timesec 1337224658 usec 922515
+TO_TROLL:sequence 31
+start:17 01111000111010000000 end:31
+TIMER: 23 timed out
+TO_TIMER: INSERT sequence data 23 from tcpd_m2 to timer sec 1337224661 usec 512602 timesec 1337224659 usec 512526
+TO_TROLL:sequence 23
+FTPC: alloc seq no 32
+In if cb.sent 32 cb.start 17 WINDOW is 15
+TO_TIMER: INSERT sequence data 32 from tcpd_m2 to timer sec 1337224661 usec 922565 timesec 1337224659 usec 922489
+TO_TROLL:sequence 32
+start:17 01111000111010000000 end:32
+TROLL: seq 32 acked to tcpd_m2
+
+start:17 01111000111010010000 end:32
+TIMER: 28 timed out
+TO_TIMER: INSERT sequence data 28 from tcpd_m2 to timer sec 1337224662 usec 242479 timesec 1337224660 usec 242405
+TO_TROLL:sequence 28
+TIMER: 24 timed out
+TO_TIMER: INSERT sequence data 24 from tcpd_m2 to timer sec 1337224662 usec 532509 timesec 1337224660 usec 532435
+TO_TROLL:sequence 24
+FTPC: alloc seq no 33
+In if cb.sent 33 cb.start 17 WINDOW is 16
+TO_TIMER: INSERT sequence data 33 from tcpd_m2 to timer sec 1337224662 usec 922483 timesec 1337224660 usec 922409
+TO_TROLL:sequence 33
+start:17 01111000111010010000 end:33
+TROLL: seq 33 acked to tcpd_m2
+
+start:17 01111000111010011000 end:33
+FTPC: alloc seq no 34
+In if cb.sent 34 cb.start 17 WINDOW is 17
+TO_TIMER: INSERT sequence data 34 from tcpd_m2 to timer sec 1337224663 usec 922432 timesec 1337224661 usec 922360
+TO_TROLL:sequence 34
+start:17 01111000111010011000 end:34
+TROLL: seq 34 acked to tcpd_m2
+
+start:17 01111000111010011100 end:34
+TIMER: 17 timed out
+TO_TIMER: INSERT sequence data 17 from tcpd_m2 to timer sec 1337224663 usec 992442 timesec 1337224661 usec 992371
+TO_TROLL:sequence 17
+TROLL: seq 17 acked to tcpd_m2
+
+start:22 00011101001110000000 end:34
+TIMER: 30 timed out
+TO_TIMER: INSERT sequence data 30 from tcpd_m2 to timer sec 1337224664 usec 272424 timesec 1337224662 usec 272355
+TO_TROLL:sequence 30
+TROLL: seq 30 acked to tcpd_m2
+
+start:22 00011101101110000000 end:34
+TIMER: 22 timed out
+TO_TIMER: INSERT sequence data 22 from tcpd_m2 to timer sec 1337224664 usec 852442 timesec 1337224662 usec 852375
+TO_TROLL:sequence 22
+TROLL: seq 22 acked to tcpd_m2
+
+start:23 00111011011100000000 end:34
+FTPC: alloc seq no 35
+In if cb.sent 35 cb.start 23 WINDOW is 12
+TO_TIMER: INSERT sequence data 35 from tcpd_m2 to timer sec 1337224664 usec 922396 timesec 1337224662 usec 922330
+TO_TROLL:sequence 35
+start:23 00111011011100000000 end:35
+TIMER: 31 timed out
+TO_TIMER: INSERT sequence data 31 from tcpd_m2 to timer sec 1337224665 usec 292698 timesec 1337224663 usec 292632
+TO_TROLL:sequence 31
+TROLL: seq 31 acked to tcpd_m2
+
+start:23 00111011111100000000 end:35
+TIMER: 23 timed out
+TO_TIMER: INSERT sequence data 23 from tcpd_m2 to timer sec 1337224665 usec 892431 timesec 1337224663 usec 892366
+TO_TROLL:sequence 23
+FTPC: alloc seq no 36
+In if cb.sent 36 cb.start 23 WINDOW is 13
+TO_TIMER: INSERT sequence data 36 from tcpd_m2 to timer sec 1337224665 usec 922496 timesec 1337224663 usec 922431
+TO_TROLL:sequence 36
+start:23 00111011111100000000 end:36
+TIMER: 28 timed out
+TO_TIMER: INSERT sequence data 28 from tcpd_m2 to timer sec 1337224666 usec 632346 timesec 1337224664 usec 632281
+TO_TROLL:sequence 28
+FTPC: alloc seq no 37
+In if cb.sent 37 cb.start 23 WINDOW is 14
+TO_TIMER: INSERT sequence data 37 from tcpd_m2 to timer sec 1337224666 usec 922489 timesec 1337224664 usec 922424
+TO_TROLL:sequence 37
+start:23 00111011111100000000 end:37
+TIMER: 24 timed out
+TO_TIMER: INSERT sequence data 24 from tcpd_m2 to timer sec 1337224666 usec 932508 timesec 1337224664 usec 932443
+TO_TROLL:sequence 24
+FTPC: alloc seq no 38
+In if cb.sent 38 cb.start 23 WINDOW is 15
+TO_TIMER: INSERT sequence data 38 from tcpd_m2 to timer sec 1337224667 usec 922359 timesec 1337224665 usec 922294
+TO_TROLL:sequence 38
+start:23 00111011111100000000 end:38
+TROLL: seq 38 acked to tcpd_m2
+
+start:23 00111011111100010000 end:38
+FTPC: alloc seq no 39
+In if cb.sent 39 cb.start 23 WINDOW is 16
+TO_TIMER: INSERT sequence data 39 from tcpd_m2 to timer sec 1337224668 usec 922221 timesec 1337224666 usec 922156
+TO_TROLL:sequence 39
+start:23 00111011111100010000 end:39
+TIMER: 35 timed out
+TO_TIMER: INSERT sequence data 35 from tcpd_m2 to timer sec 1337224669 usec 332162 timesec 1337224667 usec 332097
+TO_TROLL:sequence 35
+TROLL: seq 35 acked to tcpd_m2
+
+start:23 00111011111110010000 end:39
+FTPC: alloc seq no 40
+In if cb.sent 40 cb.start 23 WINDOW is 17
+TO_TIMER: INSERT sequence data 40 from tcpd_m2 to timer sec 1337224669 usec 922192 timesec 1337224667 usec 922129
+TO_TROLL:sequence 40
+start:23 00111011111110010000 end:40
+TROLL: seq 40 acked to tcpd_m2
+
+start:23 00111011111110010100 end:40
+TIMER: 23 timed out
+TO_TIMER: INSERT sequence data 23 from tcpd_m2 to timer sec 1337224670 usec 312154 timesec 1337224668 usec 312092
+TO_TROLL:sequence 23
+TIMER: 36 timed out
+TO_TIMER: INSERT sequence data 36 from tcpd_m2 to timer sec 1337224670 usec 352160 timesec 1337224668 usec 352098
+TO_TROLL:sequence 36
+TROLL: seq 23 acked to tcpd_m2
+
+start:24 01110111111100101000 end:40
+TROLL: seq 36 acked to tcpd_m2
+
+start:24 01110111111110101000 end:40
+FTPC: alloc seq no 41
+In if cb.sent 41 cb.start 24 WINDOW is 17
+TO_TIMER: INSERT sequence data 41 from tcpd_m2 to timer sec 1337224670 usec 922159 timesec 1337224668 usec 922083
+TO_TROLL:sequence 41
+start:24 01110111111110101000 end:41
+TROLL: seq 41 acked to tcpd_m2
+
+start:24 01110111111110101100 end:41
+TIMER: 28 timed out
+TO_TIMER: INSERT sequence data 28 from tcpd_m2 to timer sec 1337224671 usec 72171 timesec 1337224669 usec 72099
+TO_TROLL:sequence 28
+TROLL: seq 28 acked to tcpd_m2
+
+start:24 01111111111110101100 end:41
+TIMER: 37 timed out
+TO_TIMER: INSERT sequence data 37 from tcpd_m2 to timer sec 1337224671 usec 372074 timesec 1337224669 usec 372004
+TO_TROLL:sequence 37
+TIMER: 24 timed out
+TO_TIMER: INSERT sequence data 24 from tcpd_m2 to timer sec 1337224671 usec 392146 timesec 1337224669 usec 392076
+TO_TROLL:sequence 24
+TROLL: seq 37 acked to tcpd_m2
+
+start:24 01111111111111101100 end:41
+TROLL: seq 24 acked to tcpd_m2
+
+start:39 01100000000000000000 end:41
+FTPC: alloc seq no 42
+In if cb.sent 42 cb.start 39 WINDOW is 3
+TO_TIMER: INSERT sequence data 42 from tcpd_m2 to timer sec 1337224671 usec 922138 timesec 1337224669 usec 922031
+TO_TROLL:sequence 42
+start:39 01100000000000000000 end:42
+FTPC: alloc seq no 43
+In if cb.sent 43 cb.start 39 WINDOW is 4
+TO_TIMER: INSERT sequence data 43 from tcpd_m2 to timer sec 1337224672 usec 922101 timesec 1337224670 usec 921994
+TO_TROLL:sequence 43
+start:39 01100000000000000000 end:43
+TROLL: seq 43 acked to tcpd_m2
+
+start:39 01101000000000000000 end:43
+TIMER: 39 timed out
+TO_TIMER: INSERT sequence data 39 from tcpd_m2 to timer sec 1337224673 usec 392089 timesec 1337224671 usec 391985
+TO_TROLL:sequence 39
+FTPC: alloc seq no 44
+In if cb.sent 44 cb.start 39 WINDOW is 5
+TO_TIMER: INSERT sequence data 44 from tcpd_m2 to timer sec 1337224673 usec 922103 timesec 1337224671 usec 921999
+TO_TROLL:sequence 44
+start:39 01101000000000000000 end:44
+FTPC: alloc seq no 45
+In if cb.sent 45 cb.start 39 WINDOW is 6
+TO_TIMER: INSERT sequence data 45 from tcpd_m2 to timer sec 1337224674 usec 921992 timesec 1337224672 usec 921888
+TO_TROLL:sequence 45
+start:39 01101000000000000000 end:45
+FTPC: alloc seq no 46
+In if cb.sent 46 cb.start 39 WINDOW is 7
+TO_TIMER: INSERT sequence data 46 from tcpd_m2 to timer sec 1337224675 usec 921933 timesec 1337224673 usec 921829
+TO_TROLL:sequence 46
+start:39 01101000000000000000 end:46
+TROLL: recv 747 != calc 169, not processing
+TIMER: 42 timed out
+TO_TIMER: INSERT sequence data 42 from tcpd_m2 to timer sec 1337224676 usec 401875 timesec 1337224674 usec 401771
+TO_TROLL:sequence 42
+TROLL: recv 15531 != calc 50095, not processing
+FTPC: alloc seq no 47
+In if cb.sent 47 cb.start 39 WINDOW is 8
+TO_TIMER: INSERT sequence data 47 from tcpd_m2 to timer sec 1337224676 usec 921921 timesec 1337224674 usec 921817
+TO_TROLL:sequence 47
+start:39 01101000000000000000 end:47
+TIMER: 39 timed out
+TO_TIMER: INSERT sequence data 39 from tcpd_m2 to timer sec 1337224677 usec 881807 timesec 1337224675 usec 881703
+TO_TROLL:sequence 39
+FTPC: alloc seq no 48
+In if cb.sent 48 cb.start 39 WINDOW is 9
+TO_TIMER: INSERT sequence data 48 from tcpd_m2 to timer sec 1337224677 usec 921888 timesec 1337224675 usec 921784
+TO_TROLL:sequence 48
+start:39 01101000000000000000 end:48
+TROLL: seq 48 acked to tcpd_m2
+
+start:39 01101000010000000000 end:48
+TIMER: 44 timed out
+TO_TIMER: INSERT sequence data 44 from tcpd_m2 to timer sec 1337224678 usec 421761 timesec 1337224676 usec 421661
+TO_TROLL:sequence 44
+FTPC: alloc seq no 49
+In if cb.sent 49 cb.start 39 WINDOW is 10
+TO_TIMER: INSERT sequence data 49 from tcpd_m2 to timer sec 1337224678 usec 921774 timesec 1337224676 usec 921674
+TO_TROLL:sequence 49
+start:39 01101000010000000000 end:49
+TIMER: 45 timed out
+TO_TIMER: INSERT sequence data 45 from tcpd_m2 to timer sec 1337224679 usec 431779 timesec 1337224677 usec 431679
+TO_TROLL:sequence 45
+FTPC: alloc seq no 50
+In if cb.sent 50 cb.start 39 WINDOW is 11
+TO_TIMER: INSERT sequence data 50 from tcpd_m2 to timer sec 1337224679 usec 921722 timesec 1337224677 usec 921622
+TO_TROLL:sequence 50
+start:39 01101000010000000000 end:50
+TIMER: 46 timed out
+TO_TIMER: INSERT sequence data 46 from tcpd_m2 to timer sec 1337224680 usec 441733 timesec 1337224678 usec 441633
+TO_TROLL:sequence 46
+TROLL: seq 46 acked to tcpd_m2
+
+start:39 01101001010000000000 end:50
+FTPC: alloc seq no 51
+In if cb.sent 51 cb.start 39 WINDOW is 12
+TO_TIMER: INSERT sequence data 51 from tcpd_m2 to timer sec 1337224680 usec 921678 timesec 1337224678 usec 921582
+TO_TROLL:sequence 51
+start:39 01101001010000000000 end:51
+TIMER: 42 timed out
+TO_TIMER: INSERT sequence data 42 from tcpd_m2 to timer sec 1337224680 usec 921803 timesec 1337224678 usec 921707
+TO_TROLL:sequence 42
+TROLL: recv 28266 != calc 19284, not processing
+TIMER: 47 timed out
+TO_TIMER: INSERT sequence data 47 from tcpd_m2 to timer sec 1337224681 usec 451632 timesec 1337224679 usec 451536
+TO_TROLL:sequence 47
+FTPC: alloc seq no 52
+In if cb.sent 52 cb.start 39 WINDOW is 13
+TO_TIMER: INSERT sequence data 52 from tcpd_m2 to timer sec 1337224681 usec 921678 timesec 1337224679 usec 921582
+TO_TROLL:sequence 52
+start:39 01101001010000000000 end:52
+TIMER: 39 timed out
+TO_TIMER: INSERT sequence data 39 from tcpd_m2 to timer sec 1337224682 usec 411556 timesec 1337224680 usec 411460
+TO_TROLL:sequence 39
+TROLL: seq 39 acked to tcpd_m2
+
+start:42 01001010000000000000 end:52
+FTPC: alloc seq no 53
+In if cb.sent 53 cb.start 42 WINDOW is 11
+TO_TIMER: INSERT sequence data 53 from tcpd_m2 to timer sec 1337224682 usec 921590 timesec 1337224680 usec 921498
+TO_TROLL:sequence 53
+start:42 01001010000000000000 end:53
+TIMER: 44 timed out
+TO_TIMER: INSERT sequence data 44 from tcpd_m2 to timer sec 1337224682 usec 961525 timesec 1337224680 usec 961433
+TO_TROLL:sequence 44
+TIMER: 49 timed out
+TO_TIMER: INSERT sequence data 49 from tcpd_m2 to timer sec 1337224683 usec 471790 timesec 1337224681 usec 471698
+TO_TROLL:sequence 49
+FTPC: alloc seq no 54
+In if cb.sent 54 cb.start 42 WINDOW is 12
+TO_TIMER: INSERT sequence data 54 from tcpd_m2 to timer sec 1337224683 usec 921527 timesec 1337224681 usec 921435
+TO_TROLL:sequence 54
+start:42 01001010000000000000 end:54
+TIMER: 45 timed out
+TO_TIMER: INSERT sequence data 45 from tcpd_m2 to timer sec 1337224683 usec 991514 timesec 1337224681 usec 991422
+TO_TROLL:sequence 45
+TIMER: 50 timed out
+TO_TIMER: INSERT sequence data 50 from tcpd_m2 to timer sec 1337224684 usec 491512 timesec 1337224682 usec 491420
+TO_TROLL:sequence 50
+TROLL: recv 18220 != calc 6500, not processing
+FTPC: alloc seq no 55
+In if cb.sent 55 cb.start 42 WINDOW is 13
+TO_TIMER: INSERT sequence data 55 from tcpd_m2 to timer sec 1337224684 usec 921455 timesec 1337224682 usec 921363
+TO_TROLL:sequence 55
+start:42 01001010000000000000 end:55
+TROLL: seq 55 acked to tcpd_m2
+
+start:42 01001010000001000000 end:55
+TIMER: 51 timed out
+TO_TIMER: INSERT sequence data 51 from tcpd_m2 to timer sec 1337224685 usec 501406 timesec 1337224683 usec 501318
+TO_TROLL:sequence 51
+TIMER: 42 timed out
+TO_TIMER: INSERT sequence data 42 from tcpd_m2 to timer sec 1337224685 usec 501681 timesec 1337224683 usec 501593
+TO_TROLL:sequence 42
+TROLL: recv 15545 != calc 18105, not processing
+FTPC: alloc seq no 56
+In if cb.sent 56 cb.start 42 WINDOW is 14
+TO_TIMER: INSERT sequence data 56 from tcpd_m2 to timer sec 1337224685 usec 921409 timesec 1337224683 usec 921321
+TO_TROLL:sequence 56
+start:42 01001010000001000000 end:56
+TIMER: 47 timed out
+TO_TIMER: INSERT sequence data 47 from tcpd_m2 to timer sec 1337224686 usec 41441 timesec 1337224684 usec 41353
+TO_TROLL:sequence 47
+TIMER: 52 timed out
+TO_TIMER: INSERT sequence data 52 from tcpd_m2 to timer sec 1337224686 usec 521400 timesec 1337224684 usec 521312
+TO_TROLL:sequence 52
+FTPC: alloc seq no 57
+In if cb.sent 57 cb.start 42 WINDOW is 15
+TO_TIMER: INSERT sequence data 57 from tcpd_m2 to timer sec 1337224686 usec 921447 timesec 1337224684 usec 921359
+TO_TROLL:sequence 57
+start:42 01001010000001000000 end:57
+TROLL: seq 57 acked to tcpd_m2
+
+start:42 01001010000001010000 end:57
+TIMER: 53 timed out
+TO_TIMER: INSERT sequence data 53 from tcpd_m2 to timer sec 1337224687 usec 531318 timesec 1337224685 usec 531233
+TO_TROLL:sequence 53
+TIMER: 44 timed out
+TO_TIMER: INSERT sequence data 44 from tcpd_m2 to timer sec 1337224687 usec 581242 timesec 1337224685 usec 581157
+TO_TROLL:sequence 44
+TROLL: seq 53 acked to tcpd_m2
+
+start:42 01001010000101010000 end:57
+FTPC: alloc seq no 58
+In if cb.sent 58 cb.start 42 WINDOW is 16
+TO_TIMER: INSERT sequence data 58 from tcpd_m2 to timer sec 1337224687 usec 921335 timesec 1337224685 usec 921253
+TO_TROLL:sequence 58
+start:42 01001010000101010000 end:58
+TROLL: seq 58 acked to tcpd_m2
+
+start:42 01001010000101011000 end:58
+TIMER: 49 timed out
+TO_TIMER: INSERT sequence data 49 from tcpd_m2 to timer sec 1337224688 usec 101264 timesec 1337224686 usec 101185
+TO_TROLL:sequence 49
+TIMER: 54 timed out
+TO_TIMER: INSERT sequence data 54 from tcpd_m2 to timer sec 1337224688 usec 561225 timesec 1337224686 usec 561146
+TO_TROLL:sequence 54
+TIMER: 45 timed out
+TO_TIMER: INSERT sequence data 45 from tcpd_m2 to timer sec 1337224688 usec 641250 timesec 1337224686 usec 641171
+TO_TROLL:sequence 45
+FTPC: alloc seq no 59
+In if cb.sent 59 cb.start 42 WINDOW is 17
+TO_TIMER: INSERT sequence data 59 from tcpd_m2 to timer sec 1337224688 usec 921336 timesec 1337224686 usec 921257
+TO_TROLL:sequence 59
+start:42 01001010000101011000 end:59
+TIMER: 50 timed out
+TO_TIMER: INSERT sequence data 50 from tcpd_m2 to timer sec 1337224689 usec 151331 timesec 1337224687 usec 151252
+TO_TROLL:sequence 50
+TROLL: seq 50 acked to tcpd_m2
+
+start:42 01001010100101011000 end:59
+FTPC: alloc seq no 60
+In if cb.sent 60 cb.start 42 WINDOW is 18
+TO_TIMER: INSERT sequence data 60 from tcpd_m2 to timer sec 1337224689 usec 921199 timesec 1337224687 usec 921122
+TO_TROLL:sequence 60
+start:42 01001010100101011000 end:60
+TROLL: seq 60 acked to tcpd_m2
+
+start:42 01001010100101011010 end:60
+TIMER: 51 timed out
+TO_TIMER: INSERT sequence data 51 from tcpd_m2 to timer sec 1337224690 usec 171220 timesec 1337224688 usec 171145
+TO_TROLL:sequence 51
+TIMER: 42 timed out
+TO_TIMER: INSERT sequence data 42 from tcpd_m2 to timer sec 1337224690 usec 171534 timesec 1337224688 usec 171459
+TO_TROLL:sequence 42
+TROLL: seq 51 acked to tcpd_m2
+
+start:42 01001010110101011010 end:60
+TIMER: 56 timed out
+TO_TIMER: INSERT sequence data 56 from tcpd_m2 to timer sec 1337224690 usec 601122 timesec 1337224688 usec 601049
+TO_TROLL:sequence 56
+TROLL: recv 64223 != calc 34602, not processing
+TIMER: 47 timed out
+TO_TIMER: INSERT sequence data 47 from tcpd_m2 to timer sec 1337224690 usec 731180 timesec 1337224688 usec 731107
+TO_TROLL:sequence 47
+FTPC: alloc seq no 61
+In if cb.sent 61 cb.start 42 WINDOW is 19
+TO_TIMER: INSERT sequence data 61 from tcpd_m2 to timer sec 1337224690 usec 921182 timesec 1337224688 usec 921109
+TO_TROLL:sequence 61
+start:42 01001010110101011010 end:61
+TIMER: 52 timed out
+TO_TIMER: INSERT sequence data 52 from tcpd_m2 to timer sec 1337224691 usec 221150 timesec 1337224689 usec 221077
+TO_TROLL:sequence 52
+TROLL: recv 42857 != calc 54865, not processing
+FTPC: alloc seq no 62
+start:42 01001010110101011010 end:61
+TIMER: 44 timed out
+TO_TIMER: INSERT sequence data 44 from tcpd_m2 to timer sec 1337224692 usec 291097 timesec 1337224690 usec 291024
+TO_TROLL:sequence 44
+TIMER: 49 timed out
+TO_TIMER: INSERT sequence data 49 from tcpd_m2 to timer sec 1337224692 usec 821025 timesec 1337224690 usec 820952
+TO_TROLL:sequence 49
+TROLL: seq 49 acked to tcpd_m2
+
+start:42 01001011110101011010 end:61
+FTPC: alloc seq no 63
+start:42 01001011110101011010 end:61
+Break here 
+TIMER: 54 timed out
+TO_TIMER: INSERT sequence data 54 from tcpd_m2 to timer sec 1337224693 usec 291037 timesec 1337224691 usec 290966
+TO_TROLL:sequence 54
+Break here 
+TIMER: 45 timed out
+TO_TIMER: INSERT sequence data 45 from tcpd_m2 to timer sec 1337224693 usec 381028 timesec 1337224691 usec 380957
+TO_TROLL:sequence 45
+Break here 
+TIMER: 59 timed out
+TO_TIMER: INSERT sequence data 59 from tcpd_m2 to timer sec 1337224693 usec 671032 timesec 1337224691 usec 670961
+TO_TROLL:sequence 59
+Break here 
+FTPC: alloc seq no 64
+start:42 01001011110101011010 end:61
+FTPC: alloc seq no 65
+start:42 01001011110101011010 end:61
+TIMER: 42 timed out
+TO_TIMER: INSERT sequence data 42 from tcpd_m2 to timer sec 1337224694 usec 930930 timesec 1337224692 usec 930859
+TO_TROLL:sequence 42
+TROLL: seq 42 acked to tcpd_m2
+
+TO_TIMER: INSERT sequence data 62 from tcpd_m2 to timer sec 1337224694 usec 990948 timesec 1337224692 usec 990878
+TO_TROLL:sequence 62
+TO_TIMER: INSERT sequence data 63 from tcpd_m2 to timer sec 1337224694 usec 991011 timesec 1337224692 usec 990941
+TO_TROLL:sequence 63
+start:44 00101111010101101000 end:63
+TROLL: recv 58438 != calc 48198, not processing
+TIMER: 56 timed out
+TO_TIMER: INSERT sequence data 56 from tcpd_m2 to timer sec 1337224695 usec 371072 timesec 1337224693 usec 371002
+TO_TROLL:sequence 56
+TROLL: recv 64223 != calc 55885, not processing
+TIMER: 47 timed out
+TO_TIMER: INSERT sequence data 47 from tcpd_m2 to timer sec 1337224695 usec 511087 timesec 1337224693 usec 511017
+TO_TROLL:sequence 47
+TIMER: 61 timed out
+TO_TIMER: INSERT sequence data 61 from tcpd_m2 to timer sec 1337224695 usec 711126 timesec 1337224693 usec 711056
+TO_TROLL:sequence 61
+TROLL: recv 9692 != calc 44764, not processing
+FTPC: alloc seq no 66
+start:44 00101111010101101000 end:63
+TIMER: 52 timed out
+TO_TIMER: INSERT sequence data 52 from tcpd_m2 to timer sec 1337224696 usec 21089 timesec 1337224694 usec 21019
+TO_TROLL:sequence 52
+TROLL: seq 52 acked to tcpd_m2
+
+start:44 00101111110101101000 end:63
+FTPC: alloc seq no 67
+start:44 00101111110101101000 end:63
+TIMER: 44 timed out
+TO_TIMER: INSERT sequence data 44 from tcpd_m2 to timer sec 1337224697 usec 100886 timesec 1337224695 usec 100819
+TO_TROLL:sequence 44
+FTPC: alloc seq no 68
+start:44 00101111110101101000 end:63
+TIMER: 54 timed out
+TO_TIMER: INSERT sequence data 54 from tcpd_m2 to timer sec 1337224698 usec 110756 timesec 1337224696 usec 110689
+TO_TROLL:sequence 54
+TIMER: 45 timed out
+TO_TIMER: INSERT sequence data 45 from tcpd_m2 to timer sec 1337224698 usec 210785 timesec 1337224696 usec 210718
+TO_TROLL:sequence 45
+TIMER: 59 timed out
+TO_TIMER: INSERT sequence data 59 from tcpd_m2 to timer sec 1337224698 usec 510767 timesec 1337224696 usec 510700
+TO_TROLL:sequence 59
+FTPC: alloc seq no 69
+start:44 00101111110101101000 end:63
+TIMER: 62 timed out
+TO_TIMER: INSERT sequence data 62 from tcpd_m2 to timer sec 1337224699 usec 840716 timesec 1337224697 usec 840649
+TO_TROLL:sequence 62
+TIMER: 63 timed out
+TO_TIMER: INSERT sequence data 63 from tcpd_m2 to timer sec 1337224699 usec 840925 timesec 1337224697 usec 840858
+TO_TROLL:sequence 63
+TROLL: seq 62 acked to tcpd_m2
+
+start:44 00101111110101101010 end:63
+TROLL: seq 63 acked to tcpd_m2
+
+start:44 00101111110101101011 end:63
+FTPC: alloc seq no 70
+start:44 00101111110101101011 end:63
+TIMER: 56 timed out
+TO_TIMER: INSERT sequence data 56 from tcpd_m2 to timer sec 1337224700 usec 230679 timesec 1337224698 usec 230562
+TO_TROLL:sequence 56
+TROLL: seq 56 acked to tcpd_m2
+
+start:44 00101111110111101011 end:63
+TIMER: 47 timed out
+TO_TIMER: INSERT sequence data 47 from tcpd_m2 to timer sec 1337224700 usec 380695 timesec 1337224698 usec 380583
+TO_TROLL:sequence 47
+TIMER: 61 timed out
+TO_TIMER: INSERT sequence data 61 from tcpd_m2 to timer sec 1337224700 usec 590649 timesec 1337224698 usec 590537
+TO_TROLL:sequence 61
+FTPC: alloc seq no 71
+start:44 00101111110111101011 end:63
+FTPC: alloc seq no 72
+start:44 00101111110111101011 end:63
+TIMER: 44 timed out
+TO_TIMER: INSERT sequence data 44 from tcpd_m2 to timer sec 1337224701 usec 980640 timesec 1337224699 usec 980528
+TO_TROLL:sequence 44
+FTPC: alloc seq no 73
+start:44 00101111110111101011 end:63
+TIMER: 54 timed out
+TO_TIMER: INSERT sequence data 54 from tcpd_m2 to timer sec 1337224703 usec 727 timesec 1337224701 usec 615
+TO_TROLL:sequence 54
+TIMER: 45 timed out
+TO_TIMER: INSERT sequence data 45 from tcpd_m2 to timer sec 1337224703 usec 110505 timesec 1337224701 usec 110393
+TO_TROLL:sequence 45
+TIMER: 59 timed out
+TO_TIMER: INSERT sequence data 59 from tcpd_m2 to timer sec 1337224703 usec 420539 timesec 1337224701 usec 420427
+TO_TROLL:sequence 59
+TROLL: seq 59 acked to tcpd_m2
+
+start:44 00101111110111111011 end:63
+FTPC: alloc seq no 74
+start:44 00101111110111111011 end:63
+FTPC: alloc seq no 75
+start:44 00101111110111111011 end:63
+TIMER: 47 timed out
+TO_TIMER: INSERT sequence data 47 from tcpd_m2 to timer sec 1337224705 usec 300538 timesec 1337224703 usec 300430
+TO_TROLL:sequence 47
+TIMER: 61 timed out
+TO_TIMER: INSERT sequence data 61 from tcpd_m2 to timer sec 1337224705 usec 520428 timesec 1337224703 usec 520320
+TO_TROLL:sequence 61
+FTPC: alloc seq no 76
+start:44 00101111110111111011 end:63
+FTPC: alloc seq no 77
+start:44 00101111110111111011 end:63
+TIMER: 44 timed out
+TO_TIMER: INSERT sequence data 44 from tcpd_m2 to timer sec 1337224706 usec 920493 timesec 1337224704 usec 920385
+TO_TROLL:sequence 44
+FTPC: alloc seq no 78
+start:44 00101111110111111011 end:63
+TIMER: 54 timed out
+TO_TIMER: INSERT sequence data 54 from tcpd_m2 to timer sec 1337224707 usec 950348 timesec 1337224705 usec 950240
+TO_TROLL:sequence 54
+TIMER: 45 timed out
+TO_TIMER: INSERT sequence data 45 from tcpd_m2 to timer sec 1337224708 usec 70406 timesec 1337224706 usec 70298
+TO_TROLL:sequence 45
+FTPC: alloc seq no 79
+start:44 00101111110111111011 end:63
+FTPC: alloc seq no 80
+start:44 00101111110111111011 end:63
+TIMER: 47 timed out
+TO_TIMER: INSERT sequence data 47 from tcpd_m2 to timer sec 1337224710 usec 270282 timesec 1337224708 usec 270174
+TO_TROLL:sequence 47
+TIMER: 61 timed out
+TO_TIMER: INSERT sequence data 61 from tcpd_m2 to timer sec 1337224710 usec 500207 timesec 1337224708 usec 500099
+TO_TROLL:sequence 61
+FTPC: alloc seq no 81
+start:44 00101111110111111011 end:63
+TIMER: 44 timed out
+TO_TIMER: INSERT sequence data 44 from tcpd_m2 to timer sec 1337224711 usec 910182 timesec 1337224709 usec 910074
+TO_TROLL:sequence 44
+FTPC: alloc seq no 82
+start:44 00101111110111111011 end:63
+TROLL: seq 44 acked to tcpd_m2
+
+TO_TIMER: INSERT sequence data 64 from tcpd_m2 to timer sec 1337224711 usec 970148 timesec 1337224709 usec 970047
+TO_TROLL:sequence 64
+start:45 01011111101111110110 end:64
+FTPC: alloc seq no 83
+start:45 01011111101111110110 end:64
+TIMER: 54 timed out
+TO_TIMER: INSERT sequence data 54 from tcpd_m2 to timer sec 1337224712 usec 950135 timesec 1337224710 usec 950034
+TO_TROLL:sequence 54
+TROLL: recv 53274 != calc 60002, not processing
+TIMER: 45 timed out
+TO_TIMER: INSERT sequence data 45 from tcpd_m2 to timer sec 1337224713 usec 80129 timesec 1337224711 usec 80028
+TO_TROLL:sequence 45
+TROLL: seq 45 acked to tcpd_m2
+
+TO_TIMER: INSERT sequence data 65 from tcpd_m2 to timer sec 1337224713 usec 140032 timesec 1337224711 usec 139936
+TO_TROLL:sequence 65
+TO_TIMER: INSERT sequence data 66 from tcpd_m2 to timer sec 1337224713 usec 140099 timesec 1337224711 usec 140003
+TO_TROLL:sequence 66
+start:47 01111110111111011000 end:66
+FTPC: alloc seq no 84
+start:47 01111110111111011000 end:66
+FTPC: alloc seq no 85
+start:47 01111110111111011000 end:66
+TIMER: 47 timed out
+TO_TIMER: INSERT sequence data 47 from tcpd_m2 to timer sec 1337224715 usec 290005 timesec 1337224713 usec 289909
+TO_TROLL:sequence 47
+TROLL: seq 47 acked to tcpd_m2
+
+TO_TIMER: INSERT sequence data 67 from tcpd_m2 to timer sec 1337224715 usec 349968 timesec 1337224713 usec 349876
+TO_TROLL:sequence 67
+TO_TIMER: INSERT sequence data 68 from tcpd_m2 to timer sec 1337224715 usec 350033 timesec 1337224713 usec 349941
+TO_TROLL:sequence 68
+TO_TIMER: INSERT sequence data 69 from tcpd_m2 to timer sec 1337224715 usec 350081 timesec 1337224713 usec 349989
+TO_TROLL:sequence 69
+TO_TIMER: INSERT sequence data 70 from tcpd_m2 to timer sec 1337224715 usec 350126 timesec 1337224713 usec 350034
+TO_TROLL:sequence 70
+TO_TIMER: INSERT sequence data 71 from tcpd_m2 to timer sec 1337224715 usec 350170 timesec 1337224713 usec 350078
+TO_TROLL:sequence 71
+TO_TIMER: INSERT sequence data 72 from tcpd_m2 to timer sec 1337224715 usec 350219 timesec 1337224713 usec 350127
+TO_TROLL:sequence 72
+TO_TIMER: INSERT sequence data 73 from tcpd_m2 to timer sec 1337224715 usec 350262 timesec 1337224713 usec 350170
+TO_TROLL:sequence 73
+start:54 01111110110000000000 end:73
+TROLL: recv 28423 != calc 17655, not processing
+TROLL: seq 71 acked to tcpd_m2
+
+start:54 01111110110000000100 end:73
+TIMER: 61 timed out
+TO_TIMER: INSERT sequence data 61 from tcpd_m2 to timer sec 1337224715 usec 529908 timesec 1337224713 usec 529805
+TO_TROLL:sequence 61
+FTPC: alloc seq no 86
+start:54 01111110110000000100 end:73
+FTPC: alloc seq no 87
+start:54 01111110110000000100 end:73
+TIMER: 64 timed out
+TO_TIMER: INSERT sequence data 64 from tcpd_m2 to timer sec 1337224717 usec 9986 timesec 1337224715 usec 9883
+TO_TROLL:sequence 64
+TROLL: seq 64 acked to tcpd_m2
+
+start:54 01111110111000000100 end:73
+FTPC: alloc seq no 88
+start:54 01111110111000000100 end:73
+TIMER: 54 timed out
+TO_TIMER: INSERT sequence data 54 from tcpd_m2 to timer sec 1337224717 usec 999803 timesec 1337224715 usec 999703
+TO_TROLL:sequence 54
+TIMER: 65 timed out
+TO_TIMER: INSERT sequence data 65 from tcpd_m2 to timer sec 1337224718 usec 199810 timesec 1337224716 usec 199710
+TO_TROLL:sequence 65
+TIMER: 66 timed out
+TO_TIMER: INSERT sequence data 66 from tcpd_m2 to timer sec 1337224718 usec 200084 timesec 1337224716 usec 199984
+TO_TROLL:sequence 66
+TROLL: seq 65 acked to tcpd_m2
+
+start:54 01111110111100000100 end:73
+FTPC: alloc seq no 89
+start:54 01111110111100000100 end:73
+FTPC: alloc seq no 90
+start:54 01111110111100000100 end:73
+TIMER: 67 timed out
+TO_TIMER: INSERT sequence data 67 from tcpd_m2 to timer sec 1337224720 usec 419779 timesec 1337224718 usec 419673
+TO_TROLL:sequence 67
+TIMER: 68 timed out
+TO_TIMER: INSERT sequence data 68 from tcpd_m2 to timer sec 1337224720 usec 419988 timesec 1337224718 usec 419882
+TO_TROLL:sequence 68
+TIMER: 69 timed out
+TO_TIMER: INSERT sequence data 69 from tcpd_m2 to timer sec 1337224720 usec 420218 timesec 1337224718 usec 420112
+TO_TROLL:sequence 69
+TIMER: 70 timed out
+TO_TIMER: INSERT sequence data 70 from tcpd_m2 to timer sec 1337224720 usec 420367 timesec 1337224718 usec 420261
+TO_TROLL:sequence 70
+TIMER: 72 timed out
+TO_TIMER: INSERT sequence data 72 from tcpd_m2 to timer sec 1337224720 usec 420542 timesec 1337224718 usec 420436
+TO_TROLL:sequence 72
+TIMER: 73 timed out
+TO_TIMER: INSERT sequence data 73 from tcpd_m2 to timer sec 1337224720 usec 420679 timesec 1337224718 usec 420573
+TO_TROLL:sequence 73
+TROLL: seq 69 acked to tcpd_m2
+
+start:54 01111110111100010100 end:73
+TROLL: seq 70 acked to tcpd_m2
+
+start:54 01111110111100011100 end:73
+TROLL: seq 73 acked to tcpd_m2
+
+start:54 01111110111100011101 end:73
+TIMER: 61 timed out
+TO_TIMER: INSERT sequence data 61 from tcpd_m2 to timer sec 1337224720 usec 609784 timesec 1337224718 usec 609656
+TO_TROLL:sequence 61
+TROLL: seq 61 acked to tcpd_m2
+
+start:54 01111111111100011101 end:73
+FTPC: alloc seq no 91
+start:54 01111111111100011101 end:73
+FTPC: alloc seq no 92
+start:54 01111111111100011101 end:73
+FTPC: alloc seq no 93
+start:54 01111111111100011101 end:73
+TIMER: 54 timed out
+TO_TIMER: INSERT sequence data 54 from tcpd_m2 to timer sec 1337224723 usec 79636 timesec 1337224721 usec 79505
+TO_TROLL:sequence 54
+TIMER: 66 timed out
+TO_TIMER: INSERT sequence data 66 from tcpd_m2 to timer sec 1337224723 usec 289655 timesec 1337224721 usec 289524
+TO_TROLL:sequence 66
+FTPC: alloc seq no 94
+start:54 01111111111100011101 end:73
+FTPC: alloc seq no 95
+start:54 01111111111100011101 end:73
+TIMER: 67 timed out
+TO_TIMER: INSERT sequence data 67 from tcpd_m2 to timer sec 1337224725 usec 509617 timesec 1337224723 usec 509486
+TO_TROLL:sequence 67
+TIMER: 68 timed out
+TO_TIMER: INSERT sequence data 68 from tcpd_m2 to timer sec 1337224725 usec 529546 timesec 1337224723 usec 529415
+TO_TROLL:sequence 68
+TIMER: 72 timed out
+TO_TIMER: INSERT sequence data 72 from tcpd_m2 to timer sec 1337224725 usec 529717 timesec 1337224723 usec 529586
+TO_TROLL:sequence 72
+TROLL: recv 9525 != calc 56643, not processing
+FTPC: alloc seq no 96
+start:54 01111111111100011101 end:73
+FTPC: alloc seq no 97
+start:54 01111111111100011101 end:73
+FTPC: alloc seq no 98
+start:54 01111111111100011101 end:73
+TIMER: 54 timed out
+TO_TIMER: INSERT sequence data 54 from tcpd_m2 to timer sec 1337224728 usec 189388 timesec 1337224726 usec 189257
+TO_TROLL:sequence 54
+TIMER: 66 timed out
+TO_TIMER: INSERT sequence data 66 from tcpd_m2 to timer sec 1337224728 usec 409328 timesec 1337224726 usec 409197
+TO_TROLL:sequence 66
+FTPC: alloc seq no 99
+start:54 01111111111100011101 end:73
+FTPC: alloc seq no 100
+start:54 01111111111100011101 end:73
+TIMER: 67 timed out
+TO_TIMER: INSERT sequence data 67 from tcpd_m2 to timer sec 1337224730 usec 639223 timesec 1337224728 usec 639092
+TO_TROLL:sequence 67
+TIMER: 68 timed out
+TO_TIMER: INSERT sequence data 68 from tcpd_m2 to timer sec 1337224730 usec 669222 timesec 1337224728 usec 669091
+TO_TROLL:sequence 68
+TIMER: 72 timed out
+TO_TIMER: INSERT sequence data 72 from tcpd_m2 to timer sec 1337224730 usec 669392 timesec 1337224728 usec 669261
+TO_TROLL:sequence 72
+TROLL: recv 60901 != calc 61248, not processing
+FTPC: alloc seq no 101
+start:54 01111111111100011101 end:73
+FTPC: alloc seq no 102
+start:54 01111111111100011101 end:73
+FTPC: alloc seq no 103
+start:54 01111111111100011101 end:73
+TIMER: 54 timed out
+TO_TIMER: INSERT sequence data 54 from tcpd_m2 to timer sec 1337224733 usec 339169 timesec 1337224731 usec 339038
+TO_TROLL:sequence 54
+TROLL: seq 54 acked to tcpd_m2
+
+TO_TIMER: INSERT sequence data 74 from tcpd_m2 to timer sec 1337224733 usec 399155 timesec 1337224731 usec 399026
+TO_TROLL:sequence 74
+TO_TIMER: INSERT sequence data 75 from tcpd_m2 to timer sec 1337224733 usec 399221 timesec 1337224731 usec 399092
+TO_TROLL:sequence 75
+TO_TIMER: INSERT sequence data 76 from tcpd_m2 to timer sec 1337224733 usec 399287 timesec 1337224731 usec 399158
+TO_TROLL:sequence 76
+TO_TIMER: INSERT sequence data 77 from tcpd_m2 to timer sec 1337224733 usec 399332 timesec 1337224731 usec 399203
+TO_TROLL:sequence 77
+TO_TIMER: INSERT sequence data 78 from tcpd_m2 to timer sec 1337224733 usec 399375 timesec 1337224731 usec 399246
+TO_TROLL:sequence 78
+TO_TIMER: INSERT sequence data 79 from tcpd_m2 to timer sec 1337224733 usec 399419 timesec 1337224731 usec 399290
+TO_TROLL:sequence 79
+TO_TIMER: INSERT sequence data 80 from tcpd_m2 to timer sec 1337224733 usec 399469 timesec 1337224731 usec 399340
+TO_TROLL:sequence 80
+TO_TIMER: INSERT sequence data 81 from tcpd_m2 to timer sec 1337224733 usec 399512 timesec 1337224731 usec 399383
+TO_TROLL:sequence 81
+TO_TIMER: INSERT sequence data 82 from tcpd_m2 to timer sec 1337224733 usec 399554 timesec 1337224731 usec 399425
+TO_TROLL:sequence 82
+TO_TIMER: INSERT sequence data 83 from tcpd_m2 to timer sec 1337224733 usec 399598 timesec 1337224731 usec 399469
+TO_TROLL:sequence 83
+TO_TIMER: INSERT sequence data 84 from tcpd_m2 to timer sec 1337224733 usec 399647 timesec 1337224731 usec 399518
+TO_TROLL:sequence 84
+TO_TIMER: INSERT sequence data 85 from tcpd_m2 to timer sec 1337224733 usec 399701 timesec 1337224731 usec 399572
+TO_TROLL:sequence 85
+start:66 00011101000000000000 end:85
+TROLL: seq 77 acked to tcpd_m2
+
+start:66 00011101000100000000 end:85
+TIMER: 66 timed out
+TO_TIMER: INSERT sequence data 66 from tcpd_m2 to timer sec 1337224733 usec 569106 timesec 1337224731 usec 568987
+TO_TROLL:sequence 66
+FTPC: alloc seq no 104
+start:66 00011101000100000000 end:85
+FTPC: alloc seq no 105
+start:66 00011101000100000000 end:85
+TIMER: 67 timed out
+TO_TIMER: INSERT sequence data 67 from tcpd_m2 to timer sec 1337224735 usec 808988 timesec 1337224733 usec 808869
+TO_TROLL:sequence 67
+TIMER: 68 timed out
+TO_TIMER: INSERT sequence data 68 from tcpd_m2 to timer sec 1337224735 usec 849027 timesec 1337224733 usec 848908
+TO_TROLL:sequence 68
+TIMER: 72 timed out
+TO_TIMER: INSERT sequence data 72 from tcpd_m2 to timer sec 1337224735 usec 849327 timesec 1337224733 usec 849208
+TO_TROLL:sequence 72
+TROLL: recv 17308 != calc 23228, not processing
+FTPC: alloc seq no 106
+start:66 00011101000100000000 end:85
+FTPC: alloc seq no 107
+start:66 00011101000100000000 end:85
+FTPC: alloc seq no 108
+start:66 00011101000100000000 end:85
+TIMER: 74 timed out
+TO_TIMER: INSERT sequence data 74 from tcpd_m2 to timer sec 1337224738 usec 588879 timesec 1337224736 usec 588760
+TO_TROLL:sequence 74
+TIMER: 75 timed out
+TO_TIMER: INSERT sequence data 75 from tcpd_m2 to timer sec 1337224738 usec 589204 timesec 1337224736 usec 589085
+TO_TROLL:sequence 75
+TIMER: 76 timed out
+TO_TIMER: INSERT sequence data 76 from tcpd_m2 to timer sec 1337224738 usec 589497 timesec 1337224736 usec 589378
+TO_TROLL:sequence 76
+TIMER: 78 timed out
+TO_TIMER: INSERT sequence data 78 from tcpd_m2 to timer sec 1337224738 usec 589802 timesec 1337224736 usec 589683
+TO_TROLL:sequence 78
+TIMER: 79 timed out
+TO_TIMER: INSERT sequence data 79 from tcpd_m2 to timer sec 1337224738 usec 590134 timesec 1337224736 usec 590015
+TO_TROLL:sequence 79
+TIMER: 80 timed out
+TO_TIMER: INSERT sequence data 80 from tcpd_m2 to timer sec 1337224738 usec 590378 timesec 1337224736 usec 590259
+TO_TROLL:sequence 80
+TIMER: 81 timed out
+TO_TIMER: INSERT sequence data 81 from tcpd_m2 to timer sec 1337224738 usec 590671 timesec 1337224736 usec 590552
+TO_TROLL:sequence 81
+TIMER: 82 timed out
+TO_TIMER: INSERT sequence data 82 from tcpd_m2 to timer sec 1337224738 usec 590975 timesec 1337224736 usec 590856
+TO_TROLL:sequence 82
+TIMER: 83 timed out
+TO_TIMER: INSERT sequence data 83 from tcpd_m2 to timer sec 1337224738 usec 591166 timesec 1337224736 usec 591047
+TO_TROLL:sequence 83
+TIMER: 84 timed out
+TO_TIMER: INSERT sequence data 84 from tcpd_m2 to timer sec 1337224738 usec 591348 timesec 1337224736 usec 591229
+TO_TROLL:sequence 84
+TIMER: 85 timed out
+TO_TIMER: INSERT sequence data 85 from tcpd_m2 to timer sec 1337224738 usec 591728 timesec 1337224736 usec 591609
+TO_TROLL:sequence 85
+TROLL: seq 78 acked to tcpd_m2
+
+start:66 00011101000110000000 end:85
+TROLL: seq 79 acked to tcpd_m2
+
+start:66 00011101000111000000 end:85
+TROLL: seq 81 acked to tcpd_m2
+
+start:66 00011101000111010000 end:85
+TROLL: seq 83 acked to tcpd_m2
+
+start:66 00011101000111010100 end:85
+TROLL: seq 85 acked to tcpd_m2
+
+start:66 00011101000111010101 end:85
+TIMER: 66 timed out
+TO_TIMER: INSERT sequence data 66 from tcpd_m2 to timer sec 1337224738 usec 768794 timesec 1337224736 usec 768687
+TO_TROLL:sequence 66
+TROLL: seq 66 acked to tcpd_m2
+
+TO_TIMER: INSERT sequence data 86 from tcpd_m2 to timer sec 1337224738 usec 828825 timesec 1337224736 usec 828699
+TO_TROLL:sequence 86
+start:67 00111010001110101010 end:86
+TROLL: seq 86 acked to tcpd_m2
+
+start:67 00111010001110101011 end:86
+FTPC: alloc seq no 109
+start:67 00111010001110101011 end:86
+FTPC: alloc seq no 110
+start:67 00111010001110101011 end:86
+FTPC: alloc seq no 111
+start:67 00111010001110101011 end:86
+TIMER: 67 timed out
+TO_TIMER: INSERT sequence data 67 from tcpd_m2 to timer sec 1337224741 usec 18832 timesec 1337224739 usec 18697
+TO_TROLL:sequence 67
+TIMER: 68 timed out
+TO_TIMER: INSERT sequence data 68 from tcpd_m2 to timer sec 1337224741 usec 68774 timesec 1337224739 usec 68639
+TO_TROLL:sequence 68
+TIMER: 72 timed out
+TO_TIMER: INSERT sequence data 72 from tcpd_m2 to timer sec 1337224741 usec 68994 timesec 1337224739 usec 68859
+TO_TROLL:sequence 72
+FTPC: alloc seq no 112
+start:67 00111010001110101011 end:86
+FTPC: alloc seq no 113
+start:67 00111010001110101011 end:86
+TIMER: 74 timed out
+TO_TIMER: INSERT sequence data 74 from tcpd_m2 to timer sec 1337224743 usec 808684 timesec 1337224741 usec 808549
+TO_TROLL:sequence 74
+TIMER: 75 timed out
+TO_TIMER: INSERT sequence data 75 from tcpd_m2 to timer sec 1337224743 usec 828569 timesec 1337224741 usec 828434
+TO_TROLL:sequence 75
+TIMER: 76 timed out
+TO_TIMER: INSERT sequence data 76 from tcpd_m2 to timer sec 1337224743 usec 828769 timesec 1337224741 usec 828634
+TO_TROLL:sequence 76
+TIMER: 80 timed out
+TO_TIMER: INSERT sequence data 80 from tcpd_m2 to timer sec 1337224743 usec 848661 timesec 1337224741 usec 848526
+TO_TROLL:sequence 80
+TROLL: seq 75 acked to tcpd_m2
+
+start:67 00111010101110101011 end:86
+TIMER: 82 timed out
+TO_TIMER: INSERT sequence data 82 from tcpd_m2 to timer sec 1337224743 usec 868645 timesec 1337224741 usec 868525
+TO_TROLL:sequence 82
+TIMER: 84 timed out
+TO_TIMER: INSERT sequence data 84 from tcpd_m2 to timer sec 1337224743 usec 868928 timesec 1337224741 usec 868808
+TO_TROLL:sequence 84
+TROLL: seq 82 acked to tcpd_m2
+
+start:67 00111010101110111011 end:86
+FTPC: alloc seq no 114
+start:67 00111010101110111011 end:86
+FTPC: alloc seq no 115
+start:67 00111010101110111011 end:86
+FTPC: alloc seq no 116
+start:67 00111010101110111011 end:86
+TIMER: 67 timed out
+TO_TIMER: INSERT sequence data 67 from tcpd_m2 to timer sec 1337224746 usec 298491 timesec 1337224744 usec 298393
+TO_TROLL:sequence 67
+TROLL: seq 67 acked to tcpd_m2
+
+TO_TIMER: INSERT sequence data 87 from tcpd_m2 to timer sec 1337224746 usec 358426 timesec 1337224744 usec 358313
+TO_TROLL:sequence 87
+start:68 01110101011101110110 end:87
+TIMER: 68 timed out
+TO_TIMER: INSERT sequence data 68 from tcpd_m2 to timer sec 1337224746 usec 358528 timesec 1337224744 usec 358415
+TO_TROLL:sequence 68
+TIMER: 72 timed out
+TO_TIMER: INSERT sequence data 72 from tcpd_m2 to timer sec 1337224746 usec 378425 timesec 1337224744 usec 378312
+TO_TROLL:sequence 72
+FTPC: alloc seq no 117
+start:68 01110101011101110110 end:87
+FTPC: alloc seq no 118
+start:68 01110101011101110110 end:87
+FTPC: alloc seq no 119
+start:68 01110101011101110110 end:87
+TIMER: 74 timed out
+TO_TIMER: INSERT sequence data 74 from tcpd_m2 to timer sec 1337224749 usec 118374 timesec 1337224747 usec 118261
+TO_TROLL:sequence 74
+TIMER: 76 timed out
+TO_TIMER: INSERT sequence data 76 from tcpd_m2 to timer sec 1337224749 usec 148339 timesec 1337224747 usec 148226
+TO_TROLL:sequence 76
+TIMER: 80 timed out
+TO_TIMER: INSERT sequence data 80 from tcpd_m2 to timer sec 1337224749 usec 178291 timesec 1337224747 usec 178178
+TO_TROLL:sequence 80
+TIMER: 84 timed out
+TO_TIMER: INSERT sequence data 84 from tcpd_m2 to timer sec 1337224749 usec 208303 timesec 1337224747 usec 208190
+TO_TROLL:sequence 84
+FTPC: alloc seq no 120
+start:68 01110101011101110110 end:87
+FTPC: alloc seq no 121
+start:68 01110101011101110110 end:87
+TIMER: 87 timed out
+TO_TIMER: INSERT sequence data 87 from tcpd_m2 to timer sec 1337224751 usec 698300 timesec 1337224749 usec 698187
+TO_TROLL:sequence 87
+TIMER: 68 timed out
+TO_TIMER: INSERT sequence data 68 from tcpd_m2 to timer sec 1337224751 usec 698487 timesec 1337224749 usec 698374
+TO_TROLL:sequence 68
+TIMER: 72 timed out
+TO_TIMER: INSERT sequence data 72 from tcpd_m2 to timer sec 1337224751 usec 728283 timesec 1337224749 usec 728170
+TO_TROLL:sequence 72
+TROLL: seq 68 acked to tcpd_m2
+
+TO_TIMER: INSERT sequence data 88 from tcpd_m2 to timer sec 1337224751 usec 728546 timesec 1337224749 usec 728449
+TO_TROLL:sequence 88
+TO_TIMER: INSERT sequence data 89 from tcpd_m2 to timer sec 1337224751 usec 728614 timesec 1337224749 usec 728517
+TO_TROLL:sequence 89
+TO_TIMER: INSERT sequence data 90 from tcpd_m2 to timer sec 1337224751 usec 728657 timesec 1337224749 usec 728560
+TO_TROLL:sequence 90
+TO_TIMER: INSERT sequence data 91 from tcpd_m2 to timer sec 1337224751 usec 728740 timesec 1337224749 usec 728643
+TO_TROLL:sequence 91
+start:72 01010111011101100000 end:91
+TROLL: recv 17308 != calc 39532, not processing
+TROLL: recv 3437 != calc 32889, not processing
+TROLL: seq 90 acked to tcpd_m2
+
+start:72 01010111011101100010 end:91
+TROLL: seq 91 acked to tcpd_m2
+
+start:72 01010111011101100011 end:91
+FTPC: alloc seq no 122
+start:72 01010111011101100011 end:91
+FTPC: alloc seq no 123
+start:72 01010111011101100011 end:91
+FTPC: alloc seq no 124
+start:72 01010111011101100011 end:91
+TIMER: 74 timed out
+TO_TIMER: INSERT sequence data 74 from tcpd_m2 to timer sec 1337224754 usec 478107 timesec 1337224752 usec 478017
+TO_TROLL:sequence 74
+TIMER: 76 timed out
+TO_TIMER: INSERT sequence data 76 from tcpd_m2 to timer sec 1337224754 usec 518125 timesec 1337224752 usec 518035
+TO_TROLL:sequence 76
+TIMER: 80 timed out
+TO_TIMER: INSERT sequence data 80 from tcpd_m2 to timer sec 1337224754 usec 558034 timesec 1337224752 usec 557944
+TO_TROLL:sequence 80
+TIMER: 84 timed out
+TO_TIMER: INSERT sequence data 84 from tcpd_m2 to timer sec 1337224754 usec 598123 timesec 1337224752 usec 598033
+TO_TROLL:sequence 84
+TROLL: seq 80 acked to tcpd_m2
+
+start:72 01010111111101100011 end:91
+TROLL: seq 84 acked to tcpd_m2
+
+start:72 01010111111111100011 end:91
+FTPC: alloc seq no 125
+start:72 01010111111111100011 end:91
+FTPC: alloc seq no 126
+start:72 01010111111111100011 end:91
+FTPC: alloc seq no 127
+start:72 01010111111111100011 end:91
+TIMER: 87 timed out
+TO_TIMER: INSERT sequence data 87 from tcpd_m2 to timer sec 1337224757 usec 97959 timesec 1337224755 usec 97856
+TO_TROLL:sequence 87
+TIMER: 72 timed out
+TO_TIMER: INSERT sequence data 72 from tcpd_m2 to timer sec 1337224757 usec 137928 timesec 1337224755 usec 137825
+TO_TROLL:sequence 72
+TIMER: 88 timed out
+TO_TIMER: INSERT sequence data 88 from tcpd_m2 to timer sec 1337224757 usec 138203 timesec 1337224755 usec 138100
+TO_TROLL:sequence 88
+TIMER: 89 timed out
+TO_TIMER: INSERT sequence data 89 from tcpd_m2 to timer sec 1337224757 usec 138279 timesec 1337224755 usec 138176
+TO_TROLL:sequence 89
+TROLL: seq 87 acked to tcpd_m2
+
+start:72 01010111111111110011 end:91
+TROLL: seq 72 acked to tcpd_m2
+
+TO_TIMER: INSERT sequence data 92 from tcpd_m2 to timer sec 1337224757 usec 139549 timesec 1337224755 usec 139442
+TO_TROLL:sequence 92
+TO_TIMER: INSERT sequence data 93 from tcpd_m2 to timer sec 1337224757 usec 139613 timesec 1337224755 usec 139506
+TO_TROLL:sequence 93
+start:74 01011111111111001100 end:93
+TROLL: se

@@ -1,0 +1,13 @@
+./troll -b -s10 -x10 1053
+
+./tcpd_m1 127.0.0.1 127.0.0.1
+
+./tcpd_m2 127.0.0.1 127.0.0.1 127.0.0.1
+
+./timer
+
+go to server folder
+./ftps
+
+go to client folder
+./ftpc 127.0.0.1 1054 temp 127.0.0.1

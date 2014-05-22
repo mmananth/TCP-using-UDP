@@ -1,0 +1,95 @@
+#include <stdio.h>
+#include <sys/socket.h>
+#include <arpa/inet.h>
+#define BUFFER_SIZE 64
+#define TCPD_M1_PORT_IN 1054
+#define FILE_NAME_SIZE 20
+#define MSS_SIZE 1000
+#define TCPD_M1_PORT_OUT 1055
+#define END_MESSAGE "##$$CONNECTEND$$##"
+
+//Call Format TCPD_M1 <troll-ip>
+struct in_addr addr;
+
+struct troll_message
+{
+	struct sockaddr_in dest; //Address of the destination
+	char body[MSS_SIZE];
+};
+struct metadata
+{
+	unsigned int size;
+	char name[FILE_NAME_SIZE];
+} ;
+int main(int argc, char *argv[])
+{
+	struct troll_message	troll_msg;
+	unsigned int         	TCPDM1_in_socket;   // Server in socket descriptor
+	unsigned int         	TCPDM1_out_socket;  // Server out socket descriptor
+	struct sockaddr_in   	TCPDM1_in_addr;     // Server1 Internet address
+	struct sockaddr_in 	 	TCPDM1_out_addr;
+	struct sockaddr_in   	ftps_addr;
+	struct sockaddr_in   	troll_addr;
+	int                  	addr_len;        		// Internet address length
+	int                  	bytes_recv_troll;
+
+	if(argc!=2)
+	{
+		perror("Format tcpd_m1 <troll-ip>\n");
+		return 1;
+	}
+	/*START:Establish connection as a server with troll as a client on port 1054*/
+	TCPDM1_in_socket = socket(AF_INET, SOCK_DGRAM, 0);
+	TCPDM1_in_addr.sin_family      = AF_INET;            				// Address family to use
+	TCPDM1_in_addr.sin_port        = htons(TCPD_M1_PORT_IN);    // Port number to use
+	TCPDM1_in_addr.sin_addr.s_addr = htonl(INADDR_ANY);  				// Listen on any IP address
+	if(bind(TCPDM1_in_socket, (struct sockaddr *)&TCPDM1_in_addr, sizeof(TCPDM1_in_addr))!=0)
+	{
+		perror("Binding failure TCPD_M1\n");
+		return 1;
+	}
+	/*END:Establish connection as a server with troll as a client on port 1054*/
+
+	/*START:receive destination details to send it to this addr*/
+	bytes_recv_troll = recvfrom(TCPDM1_in_socket, &troll_msg, sizeof(troll_msg), 0,
+			(struct sockaddr *)&troll_addr, &addr_len);
+	memcpy(&ftps_addr,troll_msg.body,sizeof(ftps_addr));
+	addr.s_addr = troll_addr.sin_addr.s_addr;
+	printf("Recvd %u size data to tcpd_m1 from %s\n",(bytes_recv_troll),inet_ntoa(addr));
+	/*END:receive meta data of the file*/
+
+	/*START:Establish connection as a client with ftps on port 1055*/
+	TCPDM1_out_socket = socket(AF_INET, SOCK_DGRAM, 0);
+	TCPDM1_out_addr.sin_family      = AF_INET;            			// Address family to use
+	TCPDM1_out_addr.sin_port        = htons(TCPD_M1_PORT_OUT);     // Port number to use
+	TCPDM1_out_addr.sin_addr.s_addr = inet_addr(argv[1]);  			  	// Send to passed IP address
+	/*START:Establish connection as a client with ftps on port 1052*/
+
+	while(1)
+	{
+		/*START: Receive data for the file*/
+		bytes_recv_troll = recvfrom(TCPDM1_in_socket, &(troll_msg), sizeof(troll_msg), 0,
+				(struct sockaddr *)&troll_addr, &addr_len);
+		addr.s_addr = troll_addr.sin_addr.s_addr;
+		printf("Recvd %u size data to tcpd_m1 from %s\n",(bytes_recv_troll),inet_ntoa(addr));
+		/*END: Receive data for the file*/
+
+		/*START: Send it to ftps*/
+		if(sendto(TCPDM1_out_socket, (troll_msg.body), MSS_SIZE, 0,
+				(struct sockaddr *)&ftps_addr, sizeof(ftps_addr))==-1)
+		{
+			perror("Cannot send data from TCPD_M1 to ftps\n");
+			return 1;
+		}
+		addr.s_addr = ftps_addr.sin_addr.s_addr;
+		printf("sent %u size data from tcpd_m1 to %s\n",(MSS_SIZE),inet_ntoa(addr));
+		/*END: Send it to ftps*/
+
+		if (strcmp(troll_msg.body,END_MESSAGE)==0)
+					break;
+	}
+	close(TCPDM1_in_socket);
+	close(TCPDM1_out_socket);
+	return 0;
+
+}

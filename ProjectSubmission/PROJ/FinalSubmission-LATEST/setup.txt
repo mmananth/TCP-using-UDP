@@ -1,0 +1,18 @@
+Kappa - 164.107.112.23
+mu - 164.107.112.41
+omicron - 164.107.112.44
+
+go to client folder
+./ftpc 164.107.112.23 1054 temp
+
+./tcpd_m2
+
+./timer
+
+./troll -b -s10 -x10 -g10 -m10 1053
+
+Go to Kappa:
+./tcpd_m1 
+
+go to server folder
+./ftps 10555
